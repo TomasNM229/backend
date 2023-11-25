@@ -47,6 +47,7 @@ def analizar_imagen():
 @app.route('/data')
 def mostrar_data():
     #msg = 'Data: ' + info
+    print(info)
     return str(info)
 
 if __name__ == '__main__':
